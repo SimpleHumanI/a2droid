@@ -385,7 +385,7 @@ def linux_depends():
 		linux_pkg_mgrs(i)
 
 def linux_pkg_mgrs(name):
-	pkg_mgrs_list = ("pkg","apt-get install","yum install",
+	pkg_mgrs_list = ("pkg install","apt-get install","yum install",
 		"zypper install","nix-env -i",
 		"dnf install","equo install",
 		"rpm -i","pacman -S")
